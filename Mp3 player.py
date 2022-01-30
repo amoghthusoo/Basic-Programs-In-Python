@@ -16,7 +16,7 @@ class Mp3_Player:
 
 def main():
 
-    obj = Mp3_Player("monody.mp3")
+    obj = Mp3_Player("<example>.mp3")   # Edit this line. WAV file format can also be added.
     obj.play()
     print('Press Enter to abort!')
     input()
